@@ -27,7 +27,7 @@ const Footer = () => {
                 <Row>
                   <Col>
                     <h4 className="fs-4 text-white fw-700">Subscribe Now</h4>
-                    <p className="fs-6 text-white m-0 mb-1">There are many variations of passages of Lorem Ipsum available, Ipsum.</p>
+                    <p className="fs-6 text-white m-0 mb-1">Get exclusive offers, latest updates and special deals delivered directly to your inbox!</p>
                     <div className="form-group">
                       <Form.Control as="textarea" rows={1} placeholder="Enter Your Email"/>
                       <Button variant="primary" className="primary-bg-color border-0 w-100 mt-1">Subscribe</Button>
@@ -35,11 +35,11 @@ const Footer = () => {
                   </Col>
                   <Col>
                     <h4 className="fs-4 text-white fw-700">Information</h4>
-                    <p className="fs-6 text-white m-0">There are many variations of passages of Lorem Ipsum available, but the majority </p>
+                    <p className="fs-6 text-white m-0">Discover our wide range of vehicles and flexible rental options. Your perfect ride is just a few clicks away.</p>
                   </Col>
                   <Col>
                     <h4 className="fs-4 text-white fw-700">Helpful Links</h4>
-                    <p className="fs-6 text-white m-0">There are many variations of passages of Lorem Ipsum available, but the majority </p>
+                    <p className="fs-6 text-white m-0">Find everything you need to know about our services, booking process, and customer support resources.</p>
                   </Col>
                   <Col>
                     <h4 className="fs-4 text-white fw-700">Contact Us</h4>
@@ -75,7 +75,7 @@ const Footer = () => {
               <Col>
                 <p className="text-white text-center fs-6 mt-2 mb-1">
                   {new Date().getFullYear()} All Rights Reserved. Developed & Designed by &nbsp;
-                  <a href="https://github.com/fbatuhanr/" target="_blank" className="text-primary">fbatuhanr</a>
+                  <a href="https://github.com/attta-pangestu/" target="_blank" className="text-primary">attta-pangestu</a>
                 </p>
               </Col>
             </Row>

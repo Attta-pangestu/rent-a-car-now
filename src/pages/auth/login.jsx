@@ -45,7 +45,7 @@ const Login = () => {
                                 setPassword("123456")
                                 }
                             }>
-                                For Admin: admin@batuhanozturk.com 123456
+                                For Admin: atta@mail.com 123456
                             </a>
                         </p>
                         <p className="m-0">
@@ -54,7 +54,7 @@ const Login = () => {
                                 setPassword("123456")
                                 }
                             }>
-                                For User: user@batuhanozturk.com 123456
+                                For User: atta-user@mail.com 123456
                             </a>
                         </p>
                     </Col>
