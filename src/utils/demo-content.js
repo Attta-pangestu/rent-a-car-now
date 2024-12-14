@@ -47,13 +47,20 @@ const demoModels = {
         }
     }
 }
+const demoLocations = {
+    "0": "Sydney CBD, New South Wales",
+    "1": "Melbourne CBD, Victoria",
+    "2": "Brisbane City, Queensland",
+    "3": "Perth CBD, Western Australia",
+    "4": "Adelaide City, South Australia"
+}
 const demoCars = {
     "0": {
         "fuelType": "Gas",
         "gearbox": "automatic",
         "availableLocations": [
-            "4",
-            "3"
+            "0",
+            "1"
         ],
         "carCount": 35,
         "modelId": 0,
@@ -65,8 +72,8 @@ const demoCars = {
     },
     "1": {
         "availableLocations": [
-            "1",
-            "2"
+            "2",
+            "3"
         ],
         "image": "https://firebasestorage.googleapis.com/v0/b/rentacar-reactjs.appspot.com/o/vehicle-images%2Fbayon.png?alt=media&token=302cada4-5ef7-4ab1-bc9b-4634cd06fc4b",
         "carCount": 25,
@@ -108,8 +115,8 @@ const demoCars = {
     },
     "4": {
         "availableLocations": [
-            "2",
-            "3"
+            "1",
+            "2"
         ],
         "carCount": 6,
         "image": "https://firebasestorage.googleapis.com/v0/b/rentacar-reactjs.appspot.com/o/vehicle-images%2F520i.png?alt=media&token=760398ec-6353-482d-a856-bdb94896bb79",
@@ -171,13 +178,6 @@ const demoCars = {
         "image": "https://firebasestorage.googleapis.com/v0/b/rentacar-reactjs.appspot.com/o/vehicle-images%2Fqashqai.png?alt=media&token=8b886da9-d376-427a-8b6e-09faa361303b",
         "bodyType": "SUV"
     }
-}
-const demoLocations = {
-    "0": "Paris, France",
-    "1": "Rome, Italy",
-    "2": "Helsinki, Finland",
-    "3": "Amsterdam, Netherlands",
-    "4": "Istanbul, Turkey"
 }
 
 export { demoBrands, demoModels, demoCars, demoLocations }
