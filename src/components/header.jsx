@@ -52,7 +52,18 @@ const Header = () => {
                 }
                 <Navbar bg="dark" data-bs-theme="dark" collapseOnSelect expand="lg" className="bg-body-tertiary header-line-1">
                     <Container>
-                        <Navbar.Brand as={Link} to="/">Rent a Car</Navbar.Brand>
+                        <Navbar.Brand href="/">
+                            <img
+                                src="./logo192.png"
+                                alt="Company Logo"
+                                style={{
+                                    width: '100px',
+                                    height: '100px',
+                                    borderRadius: '50%',
+                                    objectFit: 'cover'
+                                }}
+                            />
+                        </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="me-auto">
@@ -90,7 +101,7 @@ const Header = () => {
                                 <Col xs={12} md={4}>
                             <span className="fs-6">
                                 <IoLocation className="header-line-2-icon"/>&nbsp;
-                                <a href="https://goo.gl/maps/2rkkAA9FP5pegCXF9" target="_blank" className="text-white">New York</a>
+                                <a href="https://goo.gl/maps/2rkkAA9FP5pegCXF9" target="_blank" className="text-white">Australia</a>
                             </span>
                                 </Col>
                                 <Col xs={12} md={4}>
@@ -102,7 +113,7 @@ const Header = () => {
                                 <Col xs={12} md={4}>
                           <span className="fs-6">
                             <GrMail className="header-line-2-icon"/>&nbsp;
-                              <a href="mailto:fbatuhanr@gmail.com" target="_blank" className="text-white">fbatuhanr@gmail.com</a>
+                              <a href="mailto:atta-pangestu" target="_blank" className="text-white">atta-pangestu</a>
                           </span>
                                 </Col>
                             </Row>

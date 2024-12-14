@@ -10,7 +10,7 @@ const AboutSection = () => {
         <Row className="mt-1 mb-2">
           <Col xs={{span:12, order:"last"}} md={{span:6, order:"first"}}>
             <div className="image_iman">
-                <img src={AboutImage} className="about_img" />
+                <img src={AboutImage} className="about_img" alt="About Us" />
             </div>
           </Col>
           <Col xs={{span:12, order:"first"}} md={{span:6, order:"last"}}>
@@ -19,7 +19,7 @@ const AboutSection = () => {
                   About <span className="primary-color">Us</span>
               </h1>
               <p className="about-text fs-5 m-0">
-                  Quisque a nulla a elit efficitur consequat quis vitae nulla. Vestibulum ornare turpis felis. Praesent varius tellus et augue faucibus cursus. Nam a condimentum mauris. Aenean non fermentum mi. Etiam ultrices eleifend aliquam. Sed id felis sed massa ornare efficitur eu sed diam. Proin sollicitudin tristique vulputate. Aenean non est hendrerit, tincidunt purus non, vestibulum ante. Phasellus vel ullamcorper sapien. Nulla accumsan venenatis dolor. Etiam metus diam, malesuada sit amet.
+                  Welcome to Australia's premier car rental service. With over a decade of experience, we pride ourselves on offering a diverse fleet of quality vehicles to suit every need. From compact cars for city exploration to luxury SUVs for outback adventures, we ensure your journey across Australia is comfortable and memorable. Our commitment to exceptional service and competitive rates has made us a trusted choice for both locals and tourists.
               </p>
               <div className="mt-3">
                   <a href="#" className="readmore-btn fs-5 px-3 py-2">Read More</a>

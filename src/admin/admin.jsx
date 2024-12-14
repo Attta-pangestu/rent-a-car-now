@@ -6,7 +6,7 @@ const Admin = () => {
         <div>
             <h1>Admin Management</h1>
             <div className="p-4">
-                <p>Welcome to the Rent a Car Management!</p>
+                <p>Welcome to the Rent a Car Now Management!</p>
                 <p>Please use navigation links above for management!</p>
                 <h4><Link to="/">Click here for back to website!</Link></h4>
             </div>

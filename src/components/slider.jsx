@@ -33,17 +33,23 @@ const Slider = () => {
                         <Carousel ref={sliderRef}>
                           <Carousel.Item interval={3000}>
                             <Carousel.Caption className="carousel-caption text-dark text-start">
-                              <h2 className="fs-1 fw-bold mb-2"><span>Car Rent</span><br/><span className="primary-color">For You</span></h2>
+                              <h2 className="fs-1 fw-bold mb-2">
+                                <span>Premium Cars</span><br/>
+                                <span className="primary-color">For Your Journey</span>
+                              </h2>
                               <p className="fs-3 m-0">
-                                Maecenas lacinia ultrices dolor vitae.
+                                Experience luxury driving across Australia
                               </p>
                             </Carousel.Caption>
                           </Carousel.Item>
                           <Carousel.Item interval={3000}>
                             <Carousel.Caption className="carousel-caption text-dark text-start">
-                              <h2 className="fs-1 fw-bold mb-2"><span>Rent a Car</span><br/><span className="primary-color">Easy</span></h2>
+                              <h2 className="fs-1 fw-bold mb-2">
+                                <span>Easy Rental</span><br/>
+                                <span className="primary-color">Quick Process</span>
+                              </h2>
                               <p className="fs-3 m-0">
-                                Maecenas euismod accumsan nunc ut tempus.
+                                Book your dream car in minutes
                               </p>
                             </Carousel.Caption>
                           </Carousel.Item>

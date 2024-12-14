@@ -19,7 +19,7 @@ const Footer = () => {
           <Container className="pt-3 pb-2">
             <Row>
               <Col>
-                <h1 className="fs-1 text-center quinary-color">Rent a Car</h1>
+                <h1 className="fs-1 text-center quinary-color">Rent a Car Now</h1>
               </Col>
             </Row>
             <Row>
@@ -46,7 +46,7 @@ const Footer = () => {
                     <p className="fs-6 text-white m-0">
                   <span>
                     <IoLocation className="header-line-2-icon"/>&nbsp;
-                    <a href="https://goo.gl/maps/2rkkAA9FP5pegCXF9" target="_blank" className="text-white">New York</a>
+                    <a href="https://goo.gl/maps/2rkkAA9FP5pegCXF9" target="_blank" className="text-white">Australia</a>
                   </span>
                       <br/>
                       <span>
@@ -56,7 +56,7 @@ const Footer = () => {
                       <br/>
                       <span>
                     <GrMail className="header-line-2-icon"/>&nbsp;
-                        <a href="mailto:fbatuhanr@gmail.com" target="_blank" className="text-white">fbatuhanr@gmail.com</a>
+                        <a href="mailto:atta-pangestu" target="_blank" className="text-white">atta-pangestu</a>
                   </span>
                     </p>
                     <div className="social-icon">
